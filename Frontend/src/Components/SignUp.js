@@ -15,7 +15,7 @@ const SignUp = () => {
   const handleSignup = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/api/v1/signup', {
+      const response = await axios.post('https://flight-yc09.onrender.com/api/v1/signup', {
         name,
         email,
         password,
