@@ -13,7 +13,7 @@ const Login = () => {
     const handleLogin = async (e) => {
         e.preventDefault();
         try {
-          const response = await axios.post('http://localhost:5000/api/v1/login', {
+          const response = await axios.post('https://flight-yc09.onrender.com/api/v1/login', {
             email,
             password,
           });
