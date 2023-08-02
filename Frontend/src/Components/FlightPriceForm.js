@@ -15,7 +15,7 @@ const FlightPriceForm = () => {
 
     try {
       console.log(date , source , destination ,airline);
-      const response = await axios.post('http://localhost:5000/api/v1/flights', {
+      const response = await axios.post('https://flight-yc09.onrender.com/api/v1/flights', {
         date,
         source,
         destination,
